@@ -1,0 +1,17 @@
+To install, drag the FGSetup and FractalGraphCsSetup files to the desktop.  Double-click FGSetup.  This will install the Microsoft .NET framework v3.5 (if necessary), then install the FractalGraphCs program.
+
+FractalGraphCs displays Mandelbrot and Julia sets for a user-specified complex function f(z,b).  The default function is f = z*z + b.  It can be changed by typing the new function into the text box at the menu bar and pressing the "Enter" key.
+
+The Mandelbrot set is displayed in the left panel, which represents the "b" plane.  The Julia set is displayed on the right, and corresponds to a specific value of "b" selected within the Mandelbrot display.  To select different "b" values, make sure the Mode is set to "Select" using the "Mode" menu, by clicking the arrow icon at the menu bar, or by using the context menu (right-click over images).  Then left-click over any location on the Mandelbrot display to select that b-value, and the corresponding Julia set will be displayed on the Julia display.
+
+To zoom in or out over either display, enter the "Zoom" mode using the mode menu, the magnifying glass icon, or the context menu.  Then left-click over either display to zoom in, or alt-left-click to zoom out.
+
+To pan either display, enter the "pan" mode using the mode menu, the pan icon, or the context menu.  Then left-click-drag over either display to pan.
+
+To change the size of the display, use the size menu.  Larger size gives higher resolution but slower performance.
+
+To change the maximum number of iterations used to generate the fractals, use the MaxIter menu.  Higher MaxIter gives more detailed fractal (important when zoomed in) but slower performance.
+
+To change the "blowout" value used as the threshhold for fractal calculation, use the "Blowout" menu.  The default value is 10, and higher numbers don't seem to make much difference in the appearance of the fractal, but can result in slower performance.
+
+The "File" menu provides options for saving the Julia display as a bitmap file, printing the Julia display, and changing the color schema for the Julia display. 

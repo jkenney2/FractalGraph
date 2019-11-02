@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalGraphCs", "TestGraphCs\FractalGraphCs.csproj", "{D7225953-FC43-4F4A-8D5A-9F208BA76886}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FractalGraphCsSetup", "FractalGraphCsSetup\FractalGraphCsSetup.vdproj", "{110274F4-76C6-44F4-B572-DF3E4638C56E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7225953-FC43-4F4A-8D5A-9F208BA76886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7225953-FC43-4F4A-8D5A-9F208BA76886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7225953-FC43-4F4A-8D5A-9F208BA76886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7225953-FC43-4F4A-8D5A-9F208BA76886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110274F4-76C6-44F4-B572-DF3E4638C56E}.Debug|Any CPU.ActiveCfg = Debug
+		{110274F4-76C6-44F4-B572-DF3E4638C56E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
